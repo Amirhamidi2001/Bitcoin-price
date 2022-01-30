@@ -1,2 +1,2 @@
 # Bitcoin-price
-Bitcoin price review robot
+Bitcoin price review
