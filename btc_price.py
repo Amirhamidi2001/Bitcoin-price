@@ -35,7 +35,7 @@ def create_table(cnx, cursor):
 
 
 def insert_data(date, price):
-    query = "INSERT INTO btc VALUES (\'%s\', \'%s\')"%(date, price)
+    query = "INSERT INTO btc VALUES (\'%s\', \'%s\')" % (date, price)
     cursor.execute(query)
     cnx.commit()
 
